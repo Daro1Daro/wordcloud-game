@@ -1,0 +1,17 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 25px;
+
+  .options {
+    height: 100%;
+
+    .option {
+      padding: 25px 40px;
+      font-size: 25px;
+      cursor: pointer;
+    }
+  }
+}

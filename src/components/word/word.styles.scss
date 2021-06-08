@@ -1,0 +1,29 @@
+.word-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .word {
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    margin: 5px 20px;
+    font-size: 30px;
+  }
+
+  .result {
+    font-size: 25px;
+  }
+
+  .selected {
+    color: lightslategray;
+    border: 1px solid #ccc;
+  }
+  .good {
+    color: #007b00;
+  }
+  .wrong {
+    color: darkred;
+  }
+}

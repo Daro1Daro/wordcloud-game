@@ -1,0 +1,23 @@
+.score-page {
+  width: 850px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 200px auto;
+
+  .title {
+    font-size: 34px;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .text {
+    padding: 5px;
+    margin: 5px;
+    font-size: 26px;
+  }
+  .points {
+    color: deepskyblue;
+  }
+}

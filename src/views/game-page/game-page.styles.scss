@@ -1,0 +1,24 @@
+.game-page {
+  width: 850px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 150px auto 0;
+
+  .question {
+    font-size: 46px;
+    margin: 10px auto;
+  }
+
+  .button-container {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .loading {
+    font-size: 40px;
+    color: dimgrey;
+    text-align: center;
+  }
+}
